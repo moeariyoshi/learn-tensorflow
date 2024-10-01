@@ -1,5 +1,5 @@
 FROM python:3.9 
-RUN pip install matplotlib tensorflow torch torchvision
+RUN pip install matplotlib numpy tensorflow torch torchvision
 
 WORKDIR /learn-tensorflow
 
